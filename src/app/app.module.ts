@@ -7,6 +7,7 @@ import { HeaderBillingComponent } from './component/billing.component/header-bil
 import { FooterBillingComponent } from './component/billing.component/footer-billing.component/footer-billing.component';
 
 import { AppComponent } from './app.component';
+import { FooterComponent } from './src/app/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AppComponent } from './app.component';
     HeaderBillingComponent,
     BodyBillingComponent,
     FooterBillingComponent,
-    BillingComponent
+    BillingComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
