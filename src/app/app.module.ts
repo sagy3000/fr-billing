@@ -7,6 +7,9 @@ import { HeaderBillingComponent } from './component/billing.component/header-bil
 import { FooterBillingComponent } from './component/billing.component/footer-billing.component/footer-billing.component';
 
 import { AppComponent } from './app.component';
+import { LogoComponent } from './component/billing.component/footer-billing.component/logo/logo.component';
+import { SocialComponent } from './component/billing.component/footer-billing.component/social/social.component';
+import { CopyrightComponent } from './component/billing.component/footer-billing.component/copyright/copyright.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { AppComponent } from './app.component';
     HeaderBillingComponent,
     BodyBillingComponent,
     FooterBillingComponent,
-    BillingComponent
+    BillingComponent,
+    LogoComponent,
+    SocialComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule
